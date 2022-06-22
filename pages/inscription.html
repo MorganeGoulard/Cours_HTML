@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inscription</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="../">Home</a></li>
+                <li><a href="./a-propos.html">About</a></li>
+                <li><a href="./contacts.html">Contact</a></li>
+                <li><a href="./horaire.html">Horaire</a></li>
+                <li><a href="./inscription.html">Incription</a></li>
+            </ul>
+        </nav>
+        <h1>S'inscrire</h1>
+        <form>
+            <!-- nom -->
+            <!-- qd on clique sur nom, on veut que le focus soit sur le champ ou on rentre notre nom 
+             possible grâce à for="<nom_du_champ>" dans label, et "id="<nom_du_champ" dans input
+            ce sont des balises line donc vont se suivre sur la ligne -->
+            <label for="nom">Nom : </label><input type="text" id="nom" /><br />
+            <!-- prenom -->
+            <label for="prenom">Prénom : </label><input type="text" id="prenom" /><br />
+            <!-- mail -->
+            <label for="email">Adresse email : </label><input type="email" id="email" /><br />
+            <!-- formation -->
+            <label for="techno">Choisir votre formation : </label>
+            <select id="techno">
+                <option value="">-- Choisir --</option>
+                <option value="jakarta">Jakarta EE</option>
+                <option value="docker">Docker</option>
+                <option value="kubernetes">Kubernetes</option>
+                <option value="angular">Angular</option>
+                <option value="bootstrap">Bootstrap</option>
+                <option value="fr">Français</option>
+            </select><br />
+            <!-- genre -->
+            <!-- le fait de mettre l'attribut name="genre" permet de pouvoir sélectionner qu'une seule possibilité -->
+            <label for="genre">Genre : </label><br />
+            <input type="radio" name="genre">Feminin<br />
+            <input type="radio" name="genre">Masculin<br />
+            <br>
+            <label for="bio">Biographie : </label>
+            <textarea id="bio"></textarea>
+            <input type="submit" value="Soumettre">
+        </form>
+    </body>
+</html>
