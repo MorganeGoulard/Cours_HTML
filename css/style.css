@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+
+/* sélecteur = ce qu'on va sélectionner pour y appliquer du style, ici c'est h1
+color=propriete
+blue=valeur
+selecteur{
+    propriete:valeur;
+}
+*/
+
+/* selecteur d'elements (balises) */
+/* h1{
+    color : blue; 
+}
+
+p{
+    color:darkslateblue
+} */
+
+/* sélecteur de classe */
+/* ils sont + spécifiques que selecteurs d'éléments donc vont être prioritaires (donc position n'importe pas) 
+pour le même niveau de priorité, c'est le dernier qui s'applique */
+/* .text-italic{
+    font-style: italic;
+}
+
+.text-danger{
+    color: red;
+} */
+
+/* sélecteur d'ID */
+/* à la diff des 2 autres sélecteurs ou on peut en avoir plusieurs, on n'aura qu'un seul sélecteur d'ID 
+donc attention à son utilisation, pas recommandé, mais il existe pour javascript et comportement différent*/
+/* #para-1{
+    color:indigo;
+} */
+
+/* combinateurs */
+/* cibler tous les éléments enfants directs de ol  */
+/* ol > li{
+    font-weight: bold;
+} */
+/* pour cibler les éléments enfants mais pas directs, au lieu de ">" on met " " */
+
+/* les couleurs du texte
+=> code hexadécimal  */
+.main-title{
+    color:#133a0b
+}
+/* code rgb */
+.secondary-title{
+    color:rgb(120, 140, 200)
+}
+
+/* couleur de background */
+.para-1{
+    background-color: #000578;
+    color:#fff;
+}
+
+/* type de police */
+/* polices avec serif pas recommandées */
+/* utiliser google fonts */
+.para-1{
+    font-family: 'Nunito', sans-serif;
+}
+
+/* taille police */
+.para-1{
+    font-size: 15px;
+}
+
+/* modifier le style du texte */
+.para-1{
+    font-style: italic;
+}
+
+/* mettre texte en gras */
+/* pas recommandé bold, mais avec les valeurs, et les valeurs importées avec google fonts */
+.para-1{
+    font-weight:400;
+}
+
+/* alignement du texte */
+.para-1{
+    text-align: center;
+}
+
+/* marges externes */
+.para-1{
+    margin-top: 83px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* marge internes */
+.para-1{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    /* si on a la même valeur partout on peut mettre => padding : 25px */
+    /* on peut aussi écrire comme ça => padding : top, right, bottom, left */
+}
+
+/* bordures */
+.para-1{
+    /* border-top: 3px solid #cf871a;
+    border-bottom: 3px solid #cf871a;
+    border-left: 3px solid #cf871a;
+    border-right: 3px solid #cf871a; */
+    border: 10px solid #cf871a ;
+    border-radius: 40px; /* pour bordure arrondie */
+}
+
+/* soulignement et d'autres décorations */
+.main-title{
+    text-decoration: underline;
+}
+
+/* modifier hauteur et largeur avec width(largeur) et height(hauteur) */
+.text-spring{
+    width: 250px;
+    height: 250px ;
+    border : 2px solid #000;
+
+    /* c'est pour cacher le texte qui déborde */
+    overflow:scroll;
+}
+
+
+
