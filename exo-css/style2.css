@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;300;400;500&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+.main-title{
+    font-family: 'Anek Latin', sans-serif;
+}
+
+.entete{
+    background-color: #001E32;
+    text-align: center;
+    color : #fff;
+    font-family: 'Anek Latin', sans-serif;
+}
+
+tbody td{
+    font-family: 'Anek Latin', sans-serif;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.grey{
+    background-color: #EEEEEE ;
+}
+
+.see{
+    background-color: #007CCB;
+    min-width: 100px;
+    padding-right : 15px;
+    border-color: transparent;
+    color : #fff;
+}
+
+.suppr{
+    background-color: #FF5C6C;
+    min-width: 100px;
+    padding-left: 15px;
+    margin-left: 0px;
+    border-color: transparent;
+    color:#fff;
+}
+
+.see:hover{
+    cursor:pointer;
+    background-color: #001E32;
+}
+
+.suppr:hover{
+    cursor:pointer;
+    background-color: darkred;
+}
